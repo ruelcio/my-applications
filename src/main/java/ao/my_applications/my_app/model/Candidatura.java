@@ -1,4 +1,3 @@
-package com.example.candidaturas.model;
 package ao.my_applications.my_app.model;
 
 public class Candidatura {

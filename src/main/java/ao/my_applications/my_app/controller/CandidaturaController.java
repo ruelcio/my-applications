@@ -17,6 +17,11 @@ public class CandidaturaController {
 
     private Long id = 1L;
 
+    @GetMapping
+    public List<Candidatura> listarCandidaturas() {
+        return candidaturas;
+    }
+
 	@PostMapping
 	public ResponseEntity<Candidatura> criarCandidatura(
         @RequestBody Candidatura candidatura) {
